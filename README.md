@@ -78,3 +78,6 @@ Type "```python ```" (may be ```py ```or ```conda ```) and then drag and drop or
 Now just sit back and wait for the files to upload!
 After each file is uploaded you can check them on your snowflake account under "Databases" or "Worksheets".
 Once the first file is uploaded you can use Power BI to direct query the data from Snowflake!
+
+Then you can copy and paste the the SQL script in the text file here to create a ```TOTAL_TABLE``` from all of the excel sheets.
+(if you get an error that says exepected SQL statement, it is because of the commented out code at the bottome of the SQL script)
