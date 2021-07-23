@@ -408,6 +408,27 @@ FROM "TOTAL_SATURNCLOUD"
 GROUP BY "DateOfCall", "TaxonomyCode", "TaxonomyName", 
 "Demographics___Gender__Person_in_Need_", "Demographics___Prior_or_Current_U_S__Military_Service__Person_in_Needs_Household_";
 
+---------------------------------------------------------------------------
+-- CHANGE DATEOFCALL DATATYPE TO DATE
+---------------------------------------------------------------------------
+
+ALTER TABLE "TOTAL_SATURNCLOUD"
+ADD "DATE" DATE;
+
+CREATE OR REPLACE TABLE "TOTAL_SATURNCLOUD"
+    AS( 
+SELECT to_date("DateOfCall") date,"NumberOfCalls", "TaxonomyCode", "TaxonomyName", 
+"Demographics___Gender__Person_in_Need_", "Demographics___Prior_or_Current_U_S__Military_Service__Person_in_Needs_Household_"
+FROM "TOTAL_SATURNCLOUD");
+
+alter table "TOTAL_SATURNCLOUD" rename column "DATE" to "DateOfCall";
+
+
+---------------------------------------------------------------------------
+-- UPDATE SHARE WITH OTHER SNOWFLAKE ACCOUNTS
+---------------------------------------------------------------------------
+grant select on all tables in schema "ADBNAMEHERE".public to share "THISSHAREHERE";
+
 
 
 
