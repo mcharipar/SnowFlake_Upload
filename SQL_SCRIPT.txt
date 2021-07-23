@@ -358,6 +358,11 @@ UPDATE "TOTAL_SATURNCLOUD"
 SET "Demographics___Gender__Person_in_Need_"
 =REPLACE("Demographics___Gender__Person_in_Need_", 'Trans', 'Other/Unknown/Cannot determine');
 
+UPDATE "TOTAL_SATURNCLOUD"
+SET "Demographics___Gender__Person_in_Need_"
+=REPLACE("Demographics___Gender__Person_in_Need_", 'Client is person in need (not applicable)',
+         'Other/Unknown/Cannot determine');
+
 --SELECT DISTINCT("Demographics_Gender_Person_in_Need")
 --FROM "TOTAL_SATURNCLOUD";
 
@@ -433,7 +438,7 @@ GROUP BY "DateOfCall", "TaxonomyCode", "TaxonomyName",
 --SELECT DISTINCT("Client_Information_Language_Client")
 --FROM "TOTAL_SATURNCLOUD"
 
---SELECT DISTINCT("Demographics_Gender_Person_in_Need")
+--SELECT DISTINCT("Demographics___Gender__Person_in_Need_")
 --FROM "TOTAL_SATURNCLOUD"
 
 --SELECT DISTINCT("Demographics_Prior_or_Current_U_S_Military_Service_Person_in_Needs_Household")
