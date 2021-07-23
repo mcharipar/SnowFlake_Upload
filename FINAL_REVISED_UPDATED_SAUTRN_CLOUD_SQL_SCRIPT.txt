@@ -1,0 +1,470 @@
+---------------------------------------------------------------------------
+-- SPECIFICIES CORRECT SNOWFLAKE SETTINGS
+---------------------------------------------------------------------------
+USE role ACCOUNTADMIN;
+USE warehouse COMPUTE_WH;
+USE database "ADBNAMEHERE";
+
+
+--DROP TABLE "TOTAL_NEEDSMETANDUNMET"
+---------------------------------------------------------------------------
+-- CREATES TABLE AND ADDS ALL YEARS DATA TO IT
+---------------------------------------------------------------------------
+CREATE TABLE "TOTAL_NEEDSMETANDUNMET" AS 
+SELECT 
+"DateOfCall", 
+"CallReportNum", 
+"TaxonomyCode", 
+"TaxonomyName", 
+"StateProvince"
+FROM 
+"NEEDSMETANDUNMET2014";
+
+INSERT INTO "TOTAL_NEEDSMETANDUNMET"("DateOfCall", 
+"CallReportNum", 
+"TaxonomyCode", 
+"TaxonomyName", 
+"StateProvince")
+SELECT
+"DateOfCall", 
+"CallReportNum", 
+"TaxonomyCode", 
+"TaxonomyName", 
+"StateProvince"
+FROM 
+"NEEDSMETANDUNMET2015";
+
+INSERT INTO "TOTAL_NEEDSMETANDUNMET"("DateOfCall", 
+"CallReportNum", 
+"TaxonomyCode", 
+"TaxonomyName", 
+"StateProvince")
+SELECT
+"DateOfCall", 
+"CallReportNum", 
+"TaxonomyCode", 
+"TaxonomyName", 
+"StateProvince"
+FROM 
+"NEEDSMETANDUNMET2016";
+
+INSERT INTO "TOTAL_NEEDSMETANDUNMET"("DateOfCall", 
+"CallReportNum", 
+"TaxonomyCode", 
+"TaxonomyName", 
+"StateProvince")
+SELECT
+"DateOfCall", 
+"CallReportNum", 
+"TaxonomyCode", 
+"TaxonomyName", 
+"StateProvince"
+FROM 
+"NEEDSMETANDUNMET2017";
+
+INSERT INTO "TOTAL_NEEDSMETANDUNMET"("DateOfCall", 
+"CallReportNum", 
+"TaxonomyCode", 
+"TaxonomyName", 
+"StateProvince")
+SELECT
+"DateOfCall", 
+"CallReportNum", 
+"TaxonomyCode", 
+"TaxonomyName", 
+"StateProvince"
+FROM 
+"NEEDSMETANDUNMET2018";
+
+INSERT INTO "TOTAL_NEEDSMETANDUNMET"("DateOfCall", 
+"CallReportNum", 
+"TaxonomyCode", 
+"TaxonomyName", 
+"StateProvince")
+SELECT
+"DateOfCall", 
+"CallReportNum", 
+"TaxonomyCode", 
+"TaxonomyName", 
+"StateProvince"
+FROM 
+"NEEDSMETANDUNMET2019";
+
+INSERT INTO "TOTAL_NEEDSMETANDUNMET"("DateOfCall", 
+"CallReportNum", 
+"TaxonomyCode", 
+"TaxonomyName", 
+"StateProvince")
+SELECT
+"DateOfCall", 
+"CallReportNum", 
+"TaxonomyCode", 
+"TaxonomyName", 
+"StateProvince"
+FROM 
+"NEEDSMETANDUNMET2020";
+
+INSERT INTO "TOTAL_NEEDSMETANDUNMET"("DateOfCall", 
+"CallReportNum", 
+"TaxonomyCode", 
+"TaxonomyName", 
+"StateProvince")
+SELECT
+"DateOfCall", 
+"CallReportNum", 
+"TaxonomyCode", 
+"TaxonomyName", 
+"StateProvince"
+FROM 
+"NEEDSMETANDUNMET2021";
+
+
+--DROP TABLE "ADBNAMEHERE"."PUBLIC"."TOTAL_CALLREPORTS"
+---------------------------------------------------------------------------
+-- CREATES TABLE AND ADDS ALL YEARS DATA TO IT
+---------------------------------------------------------------------------
+CREATE TABLE "TOTAL_CALLREPORTS" AS 
+SELECT 
+"CallReportNum", 
+--"Client_Information_Language_Client", 
+"Demographics___Gender__Person_in_Need_", 
+"Demographics___Prior_or_Current_U_S__Military_Service__Person_in_Needs_Household_"
+FROM "CALLREPORTS2014";
+
+INSERT INTO "TOTAL_CALLREPORTS"("CallReportNum",  
+--"Client_Information_Language_Client", 
+"Demographics___Gender__Person_in_Need_", 
+"Demographics___Prior_or_Current_U_S__Military_Service__Person_in_Needs_Household_")
+SELECT 
+"CallReportNum", 
+--"Client_Information_Language_Client", 
+"Demographics___Gender__Person_in_Need_", 
+"Demographics___Prior_or_Current_U_S__Military_Service__Person_in_Needs_Household_"
+FROM 
+"CALLREPORTS2015";
+
+INSERT INTO "TOTAL_CALLREPORTS"("CallReportNum",  
+--"Client_Information_Language_Client", 
+"Demographics___Gender__Person_in_Need_", 
+"Demographics___Prior_or_Current_U_S__Military_Service__Person_in_Needs_Household_")
+SELECT 
+"CallReportNum", 
+--"Client_Information_Language_Client", 
+"Demographics___Gender__Person_in_Need_", 
+"Demographics___Prior_or_Current_U_S__Military_Service__Person_in_Needs_Household_"
+FROM 
+"CALLREPORTS2016";
+
+INSERT INTO "TOTAL_CALLREPORTS"("CallReportNum",  
+--"Client_Information_Language_Client", 
+"Demographics___Gender__Person_in_Need_", 
+"Demographics___Prior_or_Current_U_S__Military_Service__Person_in_Needs_Household_")
+SELECT 
+"CallReportNum", 
+--"Client_Information_Language_Client", 
+"Demographics___Gender__Person_in_Need_", 
+"Demographics___Prior_or_Current_U_S__Military_Service__Person_in_Needs_Household_"
+FROM 
+"CALLREPORTS2017";
+
+INSERT INTO "TOTAL_CALLREPORTS"("CallReportNum",  
+--"Client_Information_Language_Client", 
+"Demographics___Gender__Person_in_Need_", 
+"Demographics___Prior_or_Current_U_S__Military_Service__Person_in_Needs_Household_")
+SELECT 
+"CallReportNum", 
+--"Client_Information_Language_Client", 
+"Demographics___Gender__Person_in_Need_", 
+"Demographics___Prior_or_Current_U_S__Military_Service__Person_in_Needs_Household_"
+FROM 
+"CALLREPORTS2018";
+
+INSERT INTO "TOTAL_CALLREPORTS"("CallReportNum",  
+--"Client_Information_Language_Client", 
+"Demographics___Gender__Person_in_Need_", 
+"Demographics___Prior_or_Current_U_S__Military_Service__Person_in_Needs_Household_")
+SELECT 
+"CallReportNum", 
+--"Client_Information_Language_Client", 
+"Demographics___Gender__Person_in_Need_", 
+"Demographics___Prior_or_Current_U_S__Military_Service__Person_in_Needs_Household_"
+FROM 
+"CALLREPORTS2019";
+
+INSERT INTO "TOTAL_CALLREPORTS"("CallReportNum",  
+--"Client_Information_Language_Client", 
+"Demographics___Gender__Person_in_Need_", 
+"Demographics___Prior_or_Current_U_S__Military_Service__Person_in_Needs_Household_")
+SELECT 
+"CallReportNum", 
+--"Client_Information_Language_Client", 
+"Demographics___Gender__Person_in_Need_", 
+"Demographics___Prior_or_Current_U_S__Military_Service__Person_in_Needs_Household_"
+FROM 
+"CALLREPORTS2020";
+
+INSERT INTO "TOTAL_CALLREPORTS"("CallReportNum",  
+--"Client_Information_Language_Client", 
+"Demographics___Gender__Person_in_Need_", 
+"Demographics___Prior_or_Current_U_S__Military_Service__Person_in_Needs_Household_")
+SELECT 
+"CallReportNum", 
+--"Client_Information_Language_Client", 
+"Demographics___Gender__Person_in_Need_", 
+"Demographics___Prior_or_Current_U_S__Military_Service__Person_in_Needs_Household_"
+FROM 
+"CALLREPORTS2021";
+
+--DROP TABLE "TOTAL_SATURNCLOUD" 
+---------------------------------------------------------------------------
+-- CREATES TABLE FROM TOTAL_* TABLES 13 COLUMNS TOTAL
+---------------------------------------------------------------------------
+CREATE TABLE "TOTAL_SATURNCLOUD" 
+AS SELECT
+"TOTAL_NEEDSMETANDUNMET"."DateOfCall", 
+"TOTAL_NEEDSMETANDUNMET"."CallReportNum", 
+"TOTAL_NEEDSMETANDUNMET"."TaxonomyCode", 
+"TOTAL_NEEDSMETANDUNMET"."TaxonomyName", 
+"TOTAL_NEEDSMETANDUNMET"."StateProvince",  
+--"TOTAL_CALLREPORTS"."CallReportNum", 
+--"TOTAL_CALLREPORTS"."Client_Information_Language_Client", 
+"TOTAL_CALLREPORTS"."Demographics___Gender__Person_in_Need_", 
+"TOTAL_CALLREPORTS"."Demographics___Prior_or_Current_U_S__Military_Service__Person_in_Needs_Household_" 
+FROM "ADBNAMEHERE"."PUBLIC"."TOTAL_NEEDSMETANDUNMET" 
+INNER JOIN "TOTAL_CALLREPORTS" ON "TOTAL_NEEDSMETANDUNMET"."CallReportNum"="TOTAL_CALLREPORTS"."CallReportNum";
+
+
+---------------------------------------------------------------------------
+-- REMOVE ALL NON CA VALUES FROM STATEPROVINCE AND THEN DROPS THE COL
+---------------------------------------------------------------------------
+DELETE FROM "TOTAL_SATURNCLOUD"
+WHERE "StateProvince" IS NULL;
+
+DELETE FROM "TOTAL_SATURNCLOUD"
+WHERE "StateProvince"!='CA';
+
+ALTER TABLE "TOTAL_SATURNCLOUD"
+DROP COLUMN "StateProvince";
+
+
+---------------------------------------------------------------------------
+-- REMOVE ALL REMAINING NULL VALUES FROM THE REST OF THE COLUMNS
+---------------------------------------------------------------------------
+--DELETE FROM "TOTAL_SATURNCLOUD"
+--WHERE "Client_Information_Language_Client" IS NULL;
+
+DELETE FROM "TOTAL_SATURNCLOUD"
+WHERE "Demographics___Gender__Person_in_Need_" IS NULL;
+
+DELETE FROM "TOTAL_SATURNCLOUD"
+WHERE "Demographics___Prior_or_Current_U_S__Military_Service__Person_in_Needs_Household_" IS NULL;
+
+---------------------------------------------------------------------------
+-- REMOVE ALL DUPLICATE ROWS WITH SAME CALLREPORTNUM AND TAXONOMY CODE
+---------------------------------------------------------------------------
+DELETE FROM "TOTAL_SATURNCLOUD"
+WHERE "TaxonomyCode" NOT LIKE 'R%';
+
+---------------------------------------------------------------------------
+-- REMOVE ALL DUPLICATE ROWS WITH SAME CALLREPORTNUM AND TAXONOMY CODE
+---------------------------------------------------------------------------
+
+--ALTER TABLE "TOTAL_SATURNCLOUD"
+--ADD CONSTRAINT PRIMARY KEY ("CallReportNum", "TaxonomyCode");
+
+CREATE OR REPLACE TABLE "TOTAL_SATURNCLOUD"
+    AS 
+    SELECT DISTINCT
+    *
+    FROM "TOTAL_SATURNCLOUD";
+    
+---------------------------------------------------------------------------
+-- TEST FOR DUPLICATES
+---------------------------------------------------------------------------
+--SELECT "TaxonomyCode", "CallReportNum", 
+--COUNT(*) AS CNT
+--FROM "TOTAL_SATURNCLOUD"
+--GROUP BY "TaxonomyCode", "CallReportNum"
+--HAVING COUNT(*) > 1;
+
+
+---------------------------------------------------------------------------
+-- CONSOLIDATE TAXONOMY CODES WITH * TAG
+---------------------------------------------------------------------------
+UPDATE "TOTAL_SATURNCLOUD"
+SET "TaxonomyCode" = LEFT("TaxonomyCode", CHARINDEX('*', "TaxonomyCode") - 2)
+WHERE CHARINDEX('*', "TaxonomyCode") > 0;
+
+--UPDATE "TOTAL_SATURNCLOUD"
+--SET "TaxonomyCode" = LEFT("TaxonomyCode", CHARINDEX(' ', "TaxonomyCode") - 1)
+--WHERE CHARINDEX(' ', "TaxonomyCode") > 0
+
+UPDATE "TOTAL_SATURNCLOUD"
+SET "TaxonomyName" = LEFT("TaxonomyName", CHARINDEX('*', "TaxonomyName") - 2)
+WHERE CHARINDEX('*', "TaxonomyName") > 0;
+
+--UPDATE "TOTAL_SATURNCLOUD"
+--SET "TaxonomyName" = LEFT("TaxonomyName", CHARINDEX(' ', "TaxonomyName") - 1)
+--WHERE CHARINDEX(' ', "TaxonomyName") > 0
+
+--SELECT COUNT(DISTINCT("TaxonomyCode"))
+--FROM "TOTAL_SATURNCLOUD"
+--WHERE "TaxonomyCode" LIKE '%*%'
+
+--SELECT DISTINCT("TaxonomyName")
+--FROM "TOTAL_SATURNCLOUD"
+--WHERE "TaxonomyCode" LIKE '%*%'
+
+
+---------------------------------------------------------------------------
+-- FORMAT DATEOFCALL TRUNCATE TIME
+---------------------------------------------------------------------------
+UPDATE "TOTAL_SATURNCLOUD"
+SET "DateOfCall" = LEFT("DateOfCall", CHARINDEX(' ', "DateOfCall") - 1)
+WHERE CHARINDEX(' ', "DateOfCall") > 0;
+
+---------------------------------------------------------------------------
+-- Demographics_Prior_or_Current_U_S_Military_Service_Person...
+-- CHANGE ALL NON YES RESPONSES TO NO
+---------------------------------------------------------------------------
+UPDATE "TOTAL_SATURNCLOUD"
+SET "Demographics___Prior_or_Current_U_S__Military_Service__Person_in_Needs_Household_"
+=REPLACE("Demographics___Prior_or_Current_U_S__Military_Service__Person_in_Needs_Household_", 'Unknown', 'No');
+
+UPDATE "TOTAL_SATURNCLOUD"
+SET "Demographics___Prior_or_Current_U_S__Military_Service__Person_in_Needs_Household_"
+=REPLACE("Demographics___Prior_or_Current_U_S__Military_Service__Person_in_Needs_Household_", 'Not Asked', 'No');
+
+UPDATE "TOTAL_SATURNCLOUD"
+SET "Demographics___Prior_or_Current_U_S__Military_Service__Person_in_Needs_Household_"
+=REPLACE("Demographics___Prior_or_Current_U_S__Military_Service__Person_in_Needs_Household_", 'Declined to Answer', 'No');
+
+--SELECT DISTINCT("Demographics_Prior_or_Current_U_S_Military_Service_Person_in_Needs_Household")
+--FROM "TOTAL_SATURNCLOUD";
+
+---------------------------------------------------------------------------
+-- Demographics_Gender_Person_in_Need CHANGE NOT ASKED, TRANS, AND
+-- DECLINED TO ANSWER TO OTHER/UNKNOWN/CANNOT DETERMINE
+---------------------------------------------------------------------------
+UPDATE "TOTAL_SATURNCLOUD"
+SET "Demographics___Gender__Person_in_Need_"
+=REPLACE("Demographics___Gender__Person_in_Need_", 'Not Asked', 'Other/Unknown/Cannot determine');
+
+UPDATE "TOTAL_SATURNCLOUD"
+SET "Demographics___Gender__Person_in_Need_"
+=REPLACE("Demographics___Gender__Person_in_Need_", 'Declined to Answer', 'Other/Unknown/Cannot determine');
+
+UPDATE "TOTAL_SATURNCLOUD"
+SET "Demographics___Gender__Person_in_Need_"
+=REPLACE("Demographics___Gender__Person_in_Need_", 'Trans', 'Other/Unknown/Cannot determine');
+
+--SELECT DISTINCT("Demographics_Gender_Person_in_Need")
+--FROM "TOTAL_SATURNCLOUD";
+
+---------------------------------------------------------------------------
+-- Client_Information_Language_Client CHANGE FARSI, VIETNAMESE, MANDARIN,
+-- KOREAN, CANTONESE TO OTHER/UNKNOWN
+---------------------------------------------------------------------------
+--UPDATE "TOTAL_SATURNCLOUD"
+--SET "Demographics_Gender_Person_in_Need"
+--=REPLACE("Client_Information_Language_Client", 'Farsi', 'Other/Unknown');
+
+--UPDATE "TOTAL_SATURNCLOUD"
+--SET "Demographics_Gender_Person_in_Need"
+--=REPLACE("Client_Information_Language_Client", 'Vietnamese', 'Other/Unknown');
+
+--UPDATE "TOTAL_SATURNCLOUD"
+--SET "Demographics_Gender_Person_in_Need"
+--=REPLACE("Client_Information_Language_Client", 'Mandarin', 'Other/Unknown');
+
+--UPDATE "TOTAL_SATURNCLOUD"
+--SET "Demographics_Gender_Person_in_Need"
+--=REPLACE("Client_Information_Language_Client", 'Korean', 'Other/Unknown');
+
+--UPDATE "TOTAL_SATURNCLOUD"
+--SET "Demographics_Gender_Person_in_Need"
+--=REPLACE("Client_Information_Language_Client", 'Cantonese', 'Other/Unknown');
+
+-------------------SELECT DISTINCT("Demographics_Gender_Person_in_Need")
+-------------------FROM "TOTAL_SATURNCLOUD";
+---------------------------------------------------------------------------
+-- COUNT CALLREPORT BY DATEOFCALL AND TAXONOMYNAME AND DEMOGRAPHICS
+---------------------------------------------------------------------------
+
+--ALTER TABLE "TOTAL_SATURNCLOUD"
+--DROP COLUMN "AreaCode"
+
+CREATE OR REPLACE TABLE "TOTAL_SATURNCLOUD"
+    AS 
+SELECT "DateOfCall", "TaxonomyCode", "TaxonomyName", 
+"Demographics___Gender__Person_in_Need_", "Demographics___Prior_or_Current_U_S__Military_Service__Person_in_Needs_Household_",
+COUNT(*) AS "NumberOfCalls"
+FROM "TOTAL_SATURNCLOUD"
+GROUP BY "DateOfCall", "TaxonomyCode", "TaxonomyName", 
+"Demographics___Gender__Person_in_Need_", "Demographics___Prior_or_Current_U_S__Military_Service__Person_in_Needs_Household_";
+
+
+
+
+---------------------------------------------------------------------------
+-- TESTING
+---------------------------------------------------------------------------
+--SELECT COUNT(DISTINCT("TaxonomyCode"))
+--FROM "TOTAL_NEEDSMETANDUNMET"
+
+--SELECT COUNT(DISTINCT("TaxonomyName"))
+--FROM "TOTAL_NEEDSMETANDUNMET"
+
+
+
+--SELECT COUNT(DISTINCT("TaxonomyCode"))
+--FROM "TOTAL_SATURNCLOUD"
+
+--SELECT COUNT(DISTINCT("TaxonomyName"))
+--FROM "TOTAL_SATURNCLOUD"
+
+
+--SELECT DISTINCT("TaxonomyCode")
+--FROM "TOTAL_SATURNCLOUD"
+
+--SELECT DISTINCT("TaxonomyName")
+--FROM "TOTAL_SATURNCLOUD"
+
+--SELECT DISTINCT("Client_Information_Language_Client")
+--FROM "TOTAL_SATURNCLOUD"
+
+--SELECT DISTINCT("Demographics_Gender_Person_in_Need")
+--FROM "TOTAL_SATURNCLOUD"
+
+--SELECT DISTINCT("Demographics_Prior_or_Current_U_S_Military_Service_Person_in_Needs_Household")
+--FROM "TOTAL_SATURNCLOUD"
+
+--SELECT DISTINCT("NumberOfCalls")
+--FROM "TOTAL_SATURNCLOUD"
+
+--SELECT "NumberOfCalls", 
+--COUNT(*) AS CNT
+--FROM "TOTAL_SATURNCLOUD"
+--GROUP BY "NumberOfCalls"
+
+
+--SELECT "TaxonomyCode", "TaxonomyName",
+--COUNT(*) AS CNT
+--FROM "TOTAL_SATURNCLOUD"
+--GROUP BY "TaxonomyCode", "TaxonomyName"
+--HAVING COUNT(*) > 1;
+
+
+--SELECT DISTINCT *
+--FROM "ADBNAMEHERE"."PUBLIC"."TOTAL_NEEDSMETANDUNMET"
+--WHERE "TaxonomyCode" LIKE 'R%*%'
+
+
+--SELECT "TaxonomyCode", "TaxonomyName" 
+--COUNT(*) AS CNT
+--FROM "TOTAL_NEEDSMETANDUNMET"
+--GROUP BY "TaxonomyCode", "TaxonomyName"
+--HAVING "TaxonomyCode" LIKE 'R%*%'
+
+--SELECT * 
+--FROM "ADBNAMEHERE"."PUBLIC"."TOTAL_SATURNCLOUD"
