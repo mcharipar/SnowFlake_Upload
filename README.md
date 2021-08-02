@@ -1,7 +1,5 @@
-# Dashboard Almost Complete
+# Call Center Dashboard Forecasting Number of Calls Related to Mental Health
 
-## [Dashboard can be seen here.](https://app.powerbi.com/view?r=eyJrIjoiNjZkYjNjYzMtMTMxYi00OGFmLWIyYTQtNjAzYzIxMzEyNmVlIiwidCI6Ijg5Mzg4MjgyLWIxYzUtNDM0NS04Y2IyLWZiZjhhYzE1NDlmNSJ9)
----
 Check Updated_ForecastNoOfCalls(LSTM).ipynb for the forecasted calls.
 - You need to update SF_Account_Info.txt, with your snowflake credentials
 
