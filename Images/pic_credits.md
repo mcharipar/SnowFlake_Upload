@@ -1,8 +1,9 @@
 # Photo Info
 
-***Werestopheles the Open Source Warrior Divinity*** by Mark Charipar, not to be used without documented authorization: [^1]
-
-[^1]: Background:
+## ***Werestopheles the Open Source Warrior Divinity*** by Mark Charipar 
+Not to be used without documented authorization:
+![logo.jpg](logo.jpg)
+Background:
 https://unsplash.com/photos/iar-afB0QQw
 
 Werewolf Typist:
@@ -17,8 +18,6 @@ https://www.pexels.com/photo/person-touching-open-macbook-on-table-839465/
 The sprites were modified using the open-source GIMP (GNU Image Manipulation Program).  Included is a url to a FAQ containing GIMP's usage policy:
 https://www.gimp.org/docs/userfaq.html
 
-![logo.jpg](logo.jpg)
-
-Greyscale switchboard 
+## Greyscale switchboard 
 ![call_center.jpg](call_center.jpg) by Museums Victoria on Unsplash:
 https://unsplash.com/photos/TVe0IEdsVc8
