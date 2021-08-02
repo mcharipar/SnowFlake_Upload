@@ -22,5 +22,4 @@ The sprites were modified using the open-source GIMP (GNU Image Manipulation Pro
 ## Greyscale switchboard
 
 ![call_center.jpg](call_center.jpg) 
-by Museums Victoria on Unsplash:
-https://unsplash.com/photos/TVe0IEdsVc8
+by [Museums Victoria](https://unsplash.com/photos/TVe0IEdsVc8) on Unsplash.
