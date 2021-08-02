@@ -25,4 +25,5 @@ In [SHARED_SF_Account_Info.txt](SHARED_SF_Account_Info.txt), each line correspon
 ---
 ### Using a Shared Snowflake Database
 Just Follow this picture.
+
 ![](../Images/SF_Sharing.png)
