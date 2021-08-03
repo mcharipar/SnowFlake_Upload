@@ -1,4 +1,4 @@
 https://medium.com/swlh/setting-up-a-conda-environment-in-less-than-5-minutes-e64d8fc338e4
 
 
-conda env create --name envname --file=environments.yml
+conda env create --name sfupload --file=environments.yml
