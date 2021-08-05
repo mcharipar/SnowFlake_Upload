@@ -8,7 +8,7 @@
 
 >When prompted with login info fill in with your Snowflake user name and password (this isn't the same exact prompt.  It is from `Get Data`->`Databases`->`Snowflake` if you wanted to rebuild your won).
 
-![](../Images/PBI_Setup1.png)
+![](..\Images\PBI_Setup1.png)
 
 >For the Server field enter in this section of your Snowflake web app URL.
 
