@@ -6,38 +6,49 @@
 
 ## Open [PBI_Dashboard.pbix](PBI_Dashboard.pbix)
 
->When prompted with login info fill in with your Snowflake user name and password (this isn't the same exact prompt.  It is from `Get Data`->`Databases`->`Snowflake` if you wanted to rebuild your won).
+Click on `Get Data`->`Databases`->`Snowflake` to rebuild the dashobard with your own Snowflake data that was uploaded.).
 
 ![](../Images/PBI_Setup1.png)
 
->For the Server field enter in this section of your Snowflake web app URL.
+For the Server field enter in this section of your Snowflake web app URL.
 
 ![](../Images/PBI_Setup.png)
 
->Once the dashboard is ready to be linked to a website, click `Publish`:
+## Recreating the Dashboard with Other Uploaded Snowflake Data
+
+For each visual that is linked to the Snowflake data, ***uncheck*** the column in the `fields` menu and ***check*** the corresponding table and column name from the uploaded Snowflake data from the notebooks:
+
+![](../Images/PBI_Setup9.png)
+
+Make any additional changes that you deem appropriate.
+
+Once the dashboard is ready to be linked to a website, click `Publish`:
 
 ![](../Images/PBI_Setup7.png)
 
->Then click `Select`
+Then click `Select`
 
 ![](../Images/PBI_Setup2.png)
 
->Click on the blue text to go to your Power BI web portal.
+Click on the blue text to go to your Power BI web portal.
 
 ![](../Images/PBI_Setup3.png)
 
->Click on the `gear symbol`->`Admin Portal` 
->>***Note this will only work with a Power BI Pro account!** (~=$10:month)
+Click on the `gear symbol`->`Admin Portal` 
 
-![](../Images/BI_Setup6.png)
+***Note this will only work with a Power BI Pro account!** (~=10USDT:month)
 
-# |Put screen shot here|
+![](../Images/PBI_Setup6.png)
 
->Return to the PBI Report and click `File`->`Embed Report`->`Publish to Web (Public)`
+Click on `Publish to web`->`Allow existing and new codes`->`Apply`
+
+![](../Images/Power_BI_Pro.png)
+
+Return to the PBI Report and click `File`->`Embed Report`->`Publish to Web (Public)`
 
 ![](../Images/PBI_Setup8.png)
 
->Copy the URL with the IFRAM html tag and place it onto the website you want to put it on.
+Copy the URL with the IFRAM html tag and place it onto the website you want to put it on.
 
 # Updates
 
