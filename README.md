@@ -13,7 +13,7 @@
 ![](Images/Dashboard2.png)
     
 Possiible Extras
-- [ ] Do statistical analysis comparing actualy number of calls to forecasted, using updated 2021 data
+- [ ] Do statistical analysis comparing actual number of calls to forecasted, using updated 2021 data
 - [ ] ?Forecast Level 2 codes?
 - [ ] Make another page in the dashboard using outside data to promote further awareness to mental health
 
