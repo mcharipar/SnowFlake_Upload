@@ -9,11 +9,6 @@
     
 - Follow [these instructions](Regular_Update_Upload/README.md)
 
-Things to do:
-
-- [ ] Correct First Forecasted Date (is same as last dateOfCall) [#see notebooks]
-- [ ] Debug PBI Dashboard (append SQL queries for new table with 30 days head info)
-
 ![](Images/Dashboard1.png)
 ![](Images/Dashboard2.png)
     
