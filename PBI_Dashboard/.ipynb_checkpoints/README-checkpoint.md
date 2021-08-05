@@ -4,7 +4,7 @@
 
 ![https://www.microsoft.com/en-us/download/details.aspx?id=58494](../Images/PBI_dl.png)
 
-## Open [PBI_Dashboard.pbix](../PBI_Dashboard/PBI_Dashboard.pbix)
+## Open [PBI_Dashboard.pbix](PBI_Dashboard.pbix)
 
 >When prompted with login info fill in with your Snowflake user name and password (this isn't the same exact prompt.  It is from `Get Data`->`Databases`->`Snowflake` if you wanted to rebuild your won).
 
