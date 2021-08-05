@@ -76,4 +76,4 @@ Follow [these instructions](../PBI_Dashboard/README.md).
 
 ---
 Reference all of the README.md's and don't for get to you [Google](www.google.com) if you have to troubleshoot.
-Some comments are provided in the notebook as well.http://localhost:8888/files/Git/SnowFlake_Upload/Initial_Upload_and_Dashboard/..%5CPBI_Dashboard%5CREADME.md?_xsrf=2%7Cc73e61a2%7C94beefeccac86ba24c6a5cc680c0bc1b%7C1626974808
+Some comments are provided in the notebook as well.
