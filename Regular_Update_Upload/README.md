@@ -10,4 +10,6 @@ This is also assuming that the call center is using [iCarol](https://www.icarol.
 
 ![](../Images/iCarol.jpg)
 
-## Make sure to reopen the [PBI_Dashboard.pbix](../PBI_Dashboard/PBI_Dashboard.pbix) and click on `Update` after the notebook has updated Snowflake!
+## Make sure to reopen the [PBI_Dashboard.pbix](../PBI_Dashboard/PBI_Dashboard.pbix) and click on `Refresh` and then `Update` after the notebook has updated Snowflake!
+
+![](../Images/PBI_refresh.png)
