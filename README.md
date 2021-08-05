@@ -3,7 +3,7 @@
 ## Quick Start
 
 1. Follow [these instructions](Initial_Upload_and_Dashboard/README.md)
-2. **WATCH THIS SHORT VIDEO** <TO BE DONE TODAY>
+2. **WATCH THIS SHORT VIDEO** (TO BE DONE)
     
 ### Updates
     
