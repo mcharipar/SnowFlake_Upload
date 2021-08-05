@@ -1,4 +1,15 @@
 https://medium.com/swlh/setting-up-a-conda-environment-in-less-than-5-minutes-e64d8fc338e4
 
 
+conda create --name sfupload python=3.6
+conda install keras 
+conda install seaborn 
+conda install numpy==1.18.5
+
+pip install -r https://raw.githubusercontent.com/snowflakedb/snowflake-connector-python/v2.4.6/tested_requirements/requirements_36.reqs 
+pip install snowflake-connector-python==2.4.6 
+pip install snowflake-connector-python[pandas]
+
+
+
 conda env create --name sfupload --file=environments.yml
