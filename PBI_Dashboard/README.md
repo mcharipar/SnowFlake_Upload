@@ -48,7 +48,7 @@ Return to the PBI Report and click `File`->`Embed Report`->`Publish to Web (Publ
 
 ![](../Images/PBI_setup8.png)
 
-Copy the URL with the IFRAMe html tag and place it onto the website you want to put it on.
+Copy the URL with the `IFRAME` html tag and place it onto the website you want to put it on.
 
 # Updates
 
