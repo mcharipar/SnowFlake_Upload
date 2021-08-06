@@ -75,5 +75,5 @@ This will take close to half an hour.
 Follow [these instructions](../PBI_Dashboard/README.md).
 
 ---
-Reference all of the README.md's and don't for get to you [Google](www.google.com) if you have to troubleshoot.
+Reference all of the README.md's and don't forget to use [Google](www.google.com) if you have to troubleshoot.
 Some comments are provided in the notebook as well.
