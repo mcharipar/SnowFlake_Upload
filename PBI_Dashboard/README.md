@@ -52,4 +52,4 @@ Copy the URL with the IFRAMe html tag and place it onto the website you want to 
 
 # Updates
 
-## Once the [Upload_Updates_Forecasts.ipynb](..Regular_Update_Upload/Upload_Updates_Forecasts.ipynb) has run, reopn the [PBI_Dashboard.pbix](../PBI_Dashboard/PBI_Dashboard.pbix) and click on `Publish` once again.  Respond affirmative to all prompts.  The dashboard will then be updated.
+## Once the [Upload_Updates_Forecasts.ipynb](..Regular_Update_Upload/Upload_Updates_Forecasts.ipynb) has run, reopn the [PBI_Dashboard.pbix](../PBI_Dashboard/PBI_Dashboard.pbix) and click on `Refresh` then on `Publish` once again.  Respond affirmative to all prompts.  The dashboard will then be updated.
